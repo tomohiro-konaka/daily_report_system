@@ -5,7 +5,7 @@ import java.util.List;
 
 import models.Report;
 
-class ReportValidator {
+public class ReportValidator {
     public static List<String> validate(Report r) {
         List<String> errors = new ArrayList<String>();
 
